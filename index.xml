@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Order Matters: Generating Progressive Explanations for Planning Tasks in Human-Robot Teaming</title>
+      <link>/publication/zakershahrak-2020-order/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/zakershahrak-2020-order/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ABU-ROBOCON 2018</title>
+      <link>/project/robocon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/robocon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Reinforcement Learning Nanodegree</title>
+      <link>/project/drlnd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/drlnd/</guid>
+      <description>Project 1: Navigation with DQN,Double DQN, Duelling DQN This project involves training an agent to navigate (and collect bananas!) in a large, square world. The result looked like this: link to code: https://github.com/raoshashank/Navigation-using-DQN
+Project 2: Continouous control with DDPG This project involves training a simulated robot arm to reach a particular given point. The result looked like this: link to code: https://github.com/raoshashank/Continouous-Control-with-DDPG
+Project 3: Collaboration and Competition This project involves training a simulated robot arm to reach a particular given point.</description>
+    </item>
+    
+    <item>
+      <title>Geometrical Mapping of an Initially Unknown Region by a Mobile Robot</title>
+      <link>/publication/marpally-2019-geometrical/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/marpally-2019-geometrical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Robot Decentralized Graph Exploration</title>
+      <link>/project/iitbintern/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/iitbintern/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RNN for Motion Planning</title>
+      <link>/project/iitkintern/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/iitkintern/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robot Snakes mimic Snakes from Video using Genetic Algorithms</title>
+      <link>/project/snakearl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/snakearl/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
