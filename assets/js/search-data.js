@@ -389,8 +389,8 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+    },{id: "news-we-presented-our-work-on-evaluation-of-social-navigation-algorithms-at-the-unsolved-social-navigation-workshop-at-rss-2024",
+          title: 'We presented our work on Evaluation of Social Navigation Algorithms at the Unsolved...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/socrates_rss_2024_workshop/";
