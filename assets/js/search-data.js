@@ -396,7 +396,7 @@ ninja.data = [{
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
+              window.location.href = "/news/socrates_rss_2024_workshop/";
             },},{id: "news-socrates-our-novel-llm-powered-social-scenario-generation-tool-is-released-on-arxiv-with-accompanying-code",
           title: 'SocRATES: Our novel LLM-powered social-scenario generation tool is released on arxiv with accompanying...',
           description: "",
