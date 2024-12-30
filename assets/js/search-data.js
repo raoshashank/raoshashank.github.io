@@ -397,8 +397,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-socrates-is-released-on-arxiv-with-accompanying-code",
-          title: 'SocRATES is released on arxiv with Accompanying code!',
+            },},{id: "news-socrates-our-novel-llm-powered-social-scenario-generation-tool-is-released-on-arxiv-with-accompanying-code",
+          title: 'SocRATES: Our novel LLM-powered social-scenario generation tool is released on arxiv with Accompanying...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
