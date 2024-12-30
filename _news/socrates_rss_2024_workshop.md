@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A long announcement with details
+title: We presented our work on Evaluation of Social Navigation Algorithms at the Unsolved Social Navigation Workshop at RSS 2024
 date: 2024-07-11 16:11:00-0400
 inline: false
 related_posts: false
