@@ -398,7 +398,7 @@ ninja.data = [{
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
             },},{id: "news-socrates-our-novel-llm-powered-social-scenario-generation-tool-is-released-on-arxiv-with-accompanying-code",
-          title: 'SocRATES: Our novel LLM-powered social-scenario generation tool is released on arxiv with Accompanying...',
+          title: 'SocRATES: Our novel LLM-powered social-scenario generation tool is released on arxiv with accompanying...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
