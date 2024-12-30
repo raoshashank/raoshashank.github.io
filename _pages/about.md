@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Doctoral Student,</a>. School of Computing, National University of Singapore
+subtitle: Doctoral Student, School of Computing, National University of Singapore
 
 profile:
   align: right
