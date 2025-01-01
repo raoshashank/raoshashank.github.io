@@ -414,11 +414,11 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/smarpall", "_blank");
         },
       },{
-        id: 'social-rss_icon',
-        title: 'Rss_icon',
+        id: 'social-rss',
+        title: 'RSS Feed',
         section: 'Socials',
         handler: () => {
-          window.open("", "_blank");
+          window.open("/feed.xml", "_blank");
         },
       },{
         id: 'social-scholar',
