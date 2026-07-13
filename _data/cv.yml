@@ -1,97 +1,152 @@
+- title: Professional Summary
+  type: text
+  contents: >
+    Robotics researcher and Ph.D. candidate specializing in social robot navigation,
+    embodied AI, scenario-based testing, and imitation learning. Experienced in curating
+    and analyzing large-scale datasets, training machine learning models for robotic
+    applications, conducting human-subject studies &amp; data analysis, and real-robot
+    experiments. Proficient in Python, ML frameworks, ROS, simulation, and multimodal
+    sensor processing.
+
 - title: General Information
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Shashank Rao Marpally
+    - name: Location
+      value: Singapore 119077
+    - name: Email
+      value: smarpall@comp.nus.edu.sg
+    - name: Links
+      links:
+        - name: LinkedIn
+          link: https://www.linkedin.com/in/smarpall/
+        - name: Scholar
+          link: https://scholar.google.com/citations?user=Hw3kGiwAAAAJ&hl=en&oi=ao
+        - name: GitHub
+          link: https://github.com/raoshashank
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Computer Science (4.3/5.0)
+      institution: National University of Singapore
+      location: Singapore
+      year: 2021 - 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Thesis: A framework for learning and evaluating Social Robot Navigation (Advisor: Prof. Harold Soh)"
+        - Expected October 2026
+      linkitems:
+        - linkname: Slides
+          link: https://drive.google.com/file/d/1oP-9JdExOrrfYRvD5xeb-SeQNTdxFF3S/view?usp=sharing
+    - title: "M.S. in Robotics and Autonomous Systems: AI Concentration (4.29/5.0)"
+      institution: Arizona State University
+      location: Tempe, AZ, USA
+      year: 2019 - 2021
       description:
-        - Description 1.
-        - Description 2.
+        - "Thesis: Learning interpretable action models of simulated agents through agent interrogation"
+    - title: B.Tech in Mechanical Engineering (3.88/5.0)
+      institution: National Institute of Technology, Karnataka
+      location: Mangalore, India
+      year: 2015 - 2019
+      description:
+        - "Thesis: Geometrical Mapping of an Initially Unknown Region by a Mobile Robot"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Ph.D. Researcher (Embodied AI)
+      institution: National University of Singapore
+      location: Singapore
+      year: 2021 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: "Language-Driven Scenario Generation for Social Navigation"
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - "Developed an LLM-powered pipeline that translates natural language descriptions into executable human-robot interactive testing scenarios, reducing scenario synthesis time to ~1 minute, and compared three planners in a 160-participant case study. [Under Review: IEEE RAL] (<a href='https://arxiv.org/html/2412.19595v1' target='_blank'>Paper</a>, <a href='https://github.com/clear-nus/SocRATES' target='_blank'>Code</a>)"
+        - title: "Largest Expert Demonstration Social Navigation Dataset"
+          contents:
+            - "Co-led an eight-team open-source social navigation dataset collection effort (29.5 hours of onboard robot data from 7 robots across 5 countries, 43.5 hours BEV data). Independently analyzed multimodal onboard sensor data and benchmarked foundational models. [Under Review: IJRR] (<a href='https://raoshashank.github.io/acme-socnav-dataset/' target='_blank'>Website</a>)"
+        - title: "Learning Residual Social Corrections for Navigation Policies"
+          contents:
+            - "Designed and trained sample-efficient end-to-end and residual imitation-learning social navigation policies using abstract representations to reduce the sim-to-real gap, iterating on architectures and training paradigms through scenario-based testing. (Ongoing Work)"
+    - title: Research Assistant
+      institution: Autonomous Agents and Intelligent Systems Lab
+      location: Tempe, AZ, USA
+      year: 2020 - 2021
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - "Conducted practical experiments to test an AI action-model learning algorithm in game-based environments. (<a href='https://aair-lab.github.io/Publications/vms_aaai21.pdf' target='_blank'>Paper</a>)"
+        - "Engineered a robot demo using ROS, OpenRAVE, AutoCAD, and Fusion 360 to demonstrate robots assisting humans in the assembly of automotive parts (NSF-Funded Project). (<a href='https://youtu.be/Wk6ymTzDUF0' target='_blank'>Demo</a>)"
+    - title: Robotics Intern
+      institution: Toyota Material Handling
+      location: Remote — Columbus, IN, USA
+      year: 2020
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - Implemented a LiDAR sensor fusion ROS2 package for autonomous forklifts and deployed it in simulation using Docker.
+    - title: Research Intern
+      institution: Indian Institute of Technology, Kanpur
+      location: Kanpur, India
+      year: 2018
+      description:
+        - "Generated a ROS/Gazebo dataset and trained TensorFlow models to approximate a robotic-arm inverse-kinematics solver, achieving 98% test accuracy. Investigated RNNs and LSTMs for motion planning. (<a href='https://github.com/raoshashank/RNN_for_Motion_Planning' target='_blank'>Code</a>)"
+    - title: Research Intern
+      institution: Indian Institute of Technology, Bombay
+      location: Mumbai, India
+      year: 2017
+      description:
+        - "Simulated a decentralized multi-robot graph-based exploration algorithm using Gazebo and ROS, and achieved complete coverage of random maze environments. (<a href='https://github.com/raoshashank/Multi-Robot-Decentralized-Graph-Exploration' target='_blank'>Code</a>)"
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Best-Paper Runner-Up, RSS 2024 Workshop on Unsolved Problems in Social Navigation
+    - year: 2018
       items:
-        - Max Planck Medal
+        - First team from NITK to qualify for the national round of ABU-Robocon
 
-- title: Academic Interests
+- title: Selected Projects
+  type: time_table
+  contents:
+    - title: Object pose hallucination for object search under full occlusion
+      description:
+        - "Investigated 6-DoF fully-occluded object pose estimation in cluttered scenes with diffusion models, and a differentiable-rendering loss-guidance signal that steers sampling towards observation-consistent poses. (<a href='https://github.com/raoshashank/rpdiff_object_search' target='_blank'>Code</a>)"
+    - title: Explanation Generation in Human-Robot Teaming
+      description:
+        - "Implemented a framework that uses inverse reinforcement learning to learn the preferred order of explanations provided by an AI agent to humans, to minimize the cognitive load in collaborative tasks. Designed human-study experiments (Amazon MTurk) to evaluate the proposed algorithm. (<a href='https://github.com/mehrdadzakershahrak/Inverse_Reinforcement_Learning_on_Planning' target='_blank'>Code</a>)"
+    - title: "ABU-Robocon NITK"
+      description:
+        - "Designed, developed, prototyped, fabricated, and assembled (as a team) two robots that play a cooperative game of shuttlecock throwing; became the university's first team to qualify for the national round. (<a href='https://robocon.nitk.ac.in/' target='_blank'>Link</a>)"
+    - title: Learning robotic snake locomotion using Genetic Algorithms
+      description:
+        - "Created a framework that uses genetic algorithms to mimic snake motion from a video onto a snake robot simulated in CoppeliaSim. (<a href='https://github.com/raoshashank/ARL_Project' target='_blank'>Code</a>)"
+
+- title: Presentations
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - "<a href='https://www.linkedin.com/feed/update/urn:li:activity:7422213294624546816/' target='_blank'>Datasets for Social Navigation</a>, Embodied AI Workshop, National Robotics Programme"
+        - "<a href='https://www.linkedin.com/feed/update/urn:li:activity:7348687432625573889/' target='_blank'>Curating Social Navigation Datasets for Training Navigation Models</a>, NSCC-NRP Workshop on Advancing Embodied AI Research through Data"
+    - year: 2024
+      items:
+        - "<a href='https://www.linkedin.com/feed/update/urn:li:activity:7220406960867663872/' target='_blank'>Towards Automated Scenario-based Testing of Social Navigation Algorithms</a>, RSS 2024 Workshop on Unsolved Problems in Social Navigation (Best-Paper Runner-Up)"
+
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Research Areas
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Social Navigation, Embodied AI, Imitation Learning, Simulation, Multimodal Datasets, Scenario-based Testing
+    - title: Robotics
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - ROS, ROS2, Gazebo, CoppeliaSim, Unity-ML Agents, OpenRAVE
+    - title: Tools
+      items:
+        - TensorFlow, PyTorch, Weights & Biases, OpenCV, AutoCAD, Fusion 360, Git, Azure DevOps, Docker
+    - title: Programming
+      items:
+        - Python, C, C++, Java, MATLAB, PDDL
+    - title: Hardware
+      items:
+        - Unitree Go2, ABB YuMi, Fetch Robot, Raspberry Pi, Arduino
