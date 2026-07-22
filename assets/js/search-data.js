@@ -360,7 +360,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-gave-a-talk-on-datasets-for-social-navigation-at-the-embodied-ai-workshop-national-robotics-programme",
           title: 'I gave a talk on “Datasets for Social Navigation” at the Embodied AI...',
           description: "",
-          section: "News",},{id: "news-submitted-acme-a-multi-cultural-multi-embodiment-social-navigation-dataset-to-ijrr-check-out-the-project-website",
+          section: "News",},{id: "news-submitted-acme-a-multi-cultural-multi-embodiment-social-navigation-dataset-to-ijrr-check-out-the-project-website-and-paper",
           title: 'Submitted ACME: A Multi-Cultural Multi-Embodiment Social Navigation Dataset to IJRR! Check out the...',
           description: "",
           section: "News",},{id: "news-i-presented-my-thesis-proposal-a-framework-for-learning-and-evaluating-social-robot-navigation-slides",
