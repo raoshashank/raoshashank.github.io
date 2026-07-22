@@ -346,11 +346,11 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-we-presented-our-work-on-evaluation-of-social-navigation-algorithms-at-the-unsolved-social-navigation-workshop-at-rss-2024",
-          title: 'We presented our work on Evaluation of Social Navigation Algorithms at the Unsolved...',
+    },{id: "news-socrates-won-the-best-paper-runner-up-award-at-the-rss-2024-unsolved-problems-in-social-navigation-workshop",
+          title: 'SocRATES won the Best-Paper Runner-Up Award at the RSS 2024 Unsolved Problems in...',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/socrates_rss_2024_workshop/";
+              window.location.href = "/news/socrates_rss_award/";
             },},{id: "news-socrates-our-novel-llm-powered-social-scenario-generation-tool-is-released-on-arxiv-with-accompanying-code",
           title: 'SocRATES: Our novel LLM-powered social-scenario generation tool is released on arxiv with accompanying...',
           description: "",
