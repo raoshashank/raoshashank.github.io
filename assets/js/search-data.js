@@ -346,12 +346,10 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-socrates-won-the-best-paper-runner-up-award-at-the-rss-2024-unsolved-problems-in-social-navigation-workshop",
-          title: 'SocRATES won the Best-Paper Runner-Up Award at the RSS 2024 Unsolved Problems in...',
+    },{id: "news-socrates-won-the-runner-up-best-paper-award-at-the-unsolved-problems-in-social-navigation-workshop-at-rss-2024-in-the-netherlands-amp-lt-a-class-linkedin-card-href-https-www-linkedin-com-feed-update-urn-li-share-7220323518842904576-target-blank-rel-noopener-noreferrer-style-display-block-max-width-300px-margin-0-75rem-0-text-decoration-none-amp-lt-a-amp-gt",
+          title: 'SocRATES won the Runner-up Best Paper Award at the Unsolved Problems in Social...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/socrates_rss_award/";
-            },},{id: "news-socrates-our-novel-llm-powered-social-scenario-generation-tool-is-released-on-arxiv-with-accompanying-code",
+          section: "News",},{id: "news-socrates-our-novel-llm-powered-social-scenario-generation-tool-is-released-on-arxiv-with-accompanying-code",
           title: 'SocRATES: Our novel LLM-powered social-scenario generation tool is released on arxiv with accompanying...',
           description: "",
           section: "News",},{id: "news-i-gave-a-talk-on-curating-social-navigation-datasets-for-training-navigation-models-at-the-nscc-nrp-workshop-on-advancing-embodied-ai-research-through-data",
