@@ -1,0 +1,17 @@
+{% comment %}
+  Responsive LinkedIn post embed.
+  Usage:
+    {% include linkedin.liquid src="https://www.linkedin.com/embed/feed/update/urn:li:share:XXXX?collapsed=1" height="636" %}
+  - src:    the LinkedIn embed URL (from the post's "Embed this post" dialog)
+  - height: iframe height in px (optional, defaults to 600)
+{% endcomment %}
+<div class="linkedin-embed" style="max-width: 504px; margin: 1.5rem auto;">
+  <iframe
+    src="{{ include.src }}"
+    height="{{ include.height | default: 600 }}"
+    style="width: 100%; border: none;"
+    frameborder="0"
+    allowfullscreen
+    title="Embedded LinkedIn post"
+  ></iframe>
+</div>
