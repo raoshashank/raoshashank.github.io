@@ -1,23 +1,12 @@
 {% comment %}
   Clickable LinkedIn preview card: the whole image links to the post.
+  Rendered as a block-level <div> so kramdown passes it through verbatim
+  (no smart-quotes / escaping). Put a BLANK LINE before this include in posts.
   Usage:
-    {% include linkedin_card.liquid img="assets/img/xxx.png" url="https://www.linkedin.com/feed/update/..." width="300" alt="..." %}
+    {% include linkedin_card.liquid img="assets/img/xxx.png" url="https://www.linkedin.com/feed/update/..." width="220" alt="..." %}
   - img:   path to the screenshot (relative to site root)
   - url:   the LinkedIn post URL to open on click
-  - width: max card width in px (optional, defaults to 300)
+  - width: max card width in px (optional, defaults to 220)
   - alt:   alt text (optional)
 {% endcomment %}
-<a
-  class="linkedin-card"
-  href="{{ include.url }}"
-  target="_blank"
-  rel="noopener noreferrer"
-  style="display: block; max-width: {{ include.width | default: 300 }}px; margin: 0.75rem 0; text-decoration: none;"
->
-  <img
-    src="{{ include.img | relative_url }}"
-    alt="{{ include.alt | default: 'LinkedIn post' }}"
-    loading="lazy"
-    style="width: 100%; height: auto; display: block; border-radius: 10px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 6px 20px rgba(0, 0, 0, 0.12);"
-  />
-</a>
+<div class="linkedin-card" style="max-width: {{ include.width | default: 220 }}px; margin: 0.75rem 0;"><a href="{{ include.url }}" target="_blank" rel="noopener noreferrer" style="display: block; text-decoration: none;"><img src="{{ include.img | relative_url }}" alt="{{ include.alt | default: 'LinkedIn post' }}" loading="lazy" style="width: 100%; height: auto; display: block; border-radius: 10px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 6px 20px rgba(0, 0, 0, 0.12);" /></a></div>
