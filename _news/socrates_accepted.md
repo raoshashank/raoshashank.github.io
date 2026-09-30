@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper: [SocRATES: Language-Driven Scenario Generation for Evaluating Social Navigation Algorithms](https://arxiv.org/html/2412.19595v1), was accepted to RA-L (IEEE Robotics and Automation Letters)!
+Our paper: [SocRATES: Language-Driven Scenario Generation for Evaluating Social Navigation Algorithms](https://ieeexplore.ieee.org/document/11704112), was accepted to RA-L (IEEE Robotics and Automation Letters)!
