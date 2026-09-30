@@ -25,4 +25,4 @@ Hi! I am a **final year Ph.D. candidate** (expected December 2026) at the Nation
 
 When I'm not working on research, you can generally find me either playing some [guitar](https://www.youtube.com/channel/UCGAl4cALoCjJDZFncgKvKnw), cooking, sketching, or watching British panel/comedy shows.
 
-**Contact**: smarpall[at]comp[dot]nus[dot]edu[dot]sg
+**Contact**: smarpally[at]u[dot]nus[dot]edu
