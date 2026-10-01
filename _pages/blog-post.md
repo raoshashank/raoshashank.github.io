@@ -3,7 +3,7 @@ layout: page
 permalink: /blog/
 title: blog post
 description: technical and non-technical blog posts.
-nav: true
+nav: false
 nav_order: 3
 pagination:
   enabled: true
