@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-a-post-with-image-galleries",
+        },{id: "post-where-exactly-are-the-people-recovering-3d-pedestrian-tracks-from-a-walking-robot-39-s-logs",
+      
+        title: "Where exactly are the people? Recovering 3D pedestrian tracks from a walking robot&#39;s...",
+      
+      description: "How we turned camera detections, odometry and a sparse lidar on a quadruped robot into 360°, identity-consistent 3D pedestrian tracks.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/pedestrian-3d-tracking/";
+        
+      },
+    },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
       
