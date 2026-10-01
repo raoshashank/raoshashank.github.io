@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /blog/
-title: blog post
+title: Blog
 description: technical and non-technical blog posts.
 nav: true
 nav_order: 3
@@ -12,8 +12,6 @@ pagination:
   per_page: 10
   sort_reverse: true
 ---
-
-Add new posts as markdown files in `/_posts/` (for example: `YYYY-MM-DD-post-title.md`), and keep resources for each post in a matching folder under `/assets/` (for example: `/assets/blog/post-title/`).
 
 <div class="news">
   {% assign post_list = paginator.posts | default: site.posts %}
